@@ -20,9 +20,5 @@ public class Basepage {
       System.out.println("Broswer is opened");
 	 }
    
-	@After
-    public void webBroswerclose() {
-    	   driver.quit();
-    	   System.out.println("Broswer is Closed");
-    		}
+
 }
